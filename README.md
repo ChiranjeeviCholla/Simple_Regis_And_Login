@@ -1,2 +1,16 @@
 # Simple_Regis_And_Login
-- Implemented a console-based user registration and login program in C++ - Stores usernames and passwords in a plain text file (users.txt) - Supports:   * Registering new users   * Authenticating existing users   * Menu-driven interface - Intended as an educational example for beginners to learn file I/O and basic authentication flow.
+# Simple C++ Login & Registration System
+
+This is a basic console-based user registration and login system written in C++. It stores usernames and passwords in a text file (`users.txt`) and allows users to:
+
+- Register a new account
+- Log in with existing credentials
+- Exit the program
+
+## 🛠 Features
+- Simple and beginner-friendly C++ code
+- File I/O to store and retrieve user credentials
+- Menu-driven interface
+
+## 📁 File Format
+User credentials are stored in `users.txt` in the format:
