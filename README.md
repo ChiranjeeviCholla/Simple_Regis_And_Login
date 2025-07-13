@@ -1,16 +1,27 @@
-# Simple_Regis_And_Login
-# Simple C++ Login & Registration System
+# 🎮 Sudoku Game in C++
 
-This is a basic console-based user registration and login system written in C++. It stores usernames and passwords in a text file (`users.txt`) and allows users to:
+A simple console-based **Sudoku game and solver** built in C++ using backtracking algorithm. Users can play by entering numbers into the board or automatically solve the puzzle.
 
-- Register a new account
-- Log in with existing credentials
-- Exit the program
+## 🧩 Features
 
-## 🛠 Features
-- Simple and beginner-friendly C++ code
-- File I/O to store and retrieve user credentials
-- Menu-driven interface
+- ✅ Pre-loaded Sudoku puzzle
+- 🎯 Input validation for moves
+- 🧠 Backtracking algorithm for solving
+- 🖥️ Text-based console UI
+- 💡 Easy to extend for GUI or difficulty levels
 
-## 📁 File Format
-User credentials are stored in `users.txt` in the format:
+---
+
+## 🚀 Getting Started
+
+### 📦 Requirements
+
+- C++11 or later
+- g++ compiler or any C++ compatible IDE (e.g., Code::Blocks, Visual Studio, CLion)
+
+### 🔧 How to Compile
+
+Using g++ (Linux/Mac/Windows with MinGW):
+
+```bash
+g++ sudoku.cpp -o sudoku
